@@ -6,3 +6,5 @@ Fuzz Test:利用随机生成的数据作为应用程序的输入，来检测bug�
 * Generation：smart fuzzer，将应用的输入规范定义成各种模型，再由模型来随机生成输入
 * vs. Mutual更简单，但只能寻找简单的bug，Generation更强但需要对应用进行规范比较耗时
 
+# Consistency
+* Linearizability: 每个操作像是发生在invocation和response之间的某个瞬间。
